@@ -1,0 +1,9 @@
+*{
+    box-sizing: border-box;
+}
+
+.video-card:hover{
+    border: 2px solid #333; 
+    margin: 0;
+    padding: 0;
+}
