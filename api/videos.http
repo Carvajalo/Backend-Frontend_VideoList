@@ -1,0 +1,70 @@
+@api = http://localhost:3000/
+
+get {{api}}videos
+
+###
+get {{api}}videos/63741aee9570dc34fef6f84c
+
+### Create a video
+post {{api}}videos
+Content-Type: application/json
+
+{
+    "title": "Quinto video",
+    "description": "this is a desc",
+    "url": "http://www.youtube.com/watch?v=9bO0L1rfkvU"
+}
+
+### Create a video
+post {{api}}videos
+Content-Type: application/json
+
+{
+    "title": "primer video",
+    "description": "this is a desc",
+    "url": "http://www.youtube.com/watch?v=wOLo-B7mrZM&t=1862s"
+}
+
+### Create a video
+post {{api}}videos
+Content-Type: application/json
+
+{
+    "title": "primer video",
+    "description": "this is a desc",
+    "url": "http://www.youtube.com/watch?v=dJbd7BYofp4"
+}
+
+### Create a video
+post {{api}}videos
+Content-Type: application/json
+
+{
+    "title": "Tercer video",
+    "description": "this is a desc",
+    "url": "http://www.youtube.com/watch?v=k6gaP1AK4nQ"
+}
+
+### Create a video
+post {{api}}videos
+Content-Type: application/json
+
+{
+    "title": "Cuarto video",
+    "description": "this is a desc",
+    "url": "http://www.youtube.com/watch?v=HyaT88zs2EU"
+}
+
+
+###
+delete {{api}}videos/6376768dc506b9fd8208f34a
+
+###
+put {{api}}videos/63741aee9570dc34fef6f84c
+Content-Type: application/json
+
+{
+    "title": "Primer video update2",
+    "description": "this is a desc2"
+}
+
